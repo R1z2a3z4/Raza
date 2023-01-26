@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>html form interaction with js</h1>
+    <form onsubmit="calc(); return false;">
+    <label for="totalmarks">total marks</label>
+    <input type="number" id="tm" placeholder="enter your total marks">
+    <label for="obtainmarks">total marks</label>
+    <input type="number" id="om" placeholder="enter your obtain marks">
+    <button type="submit">click</button>
+    </form>
+    <button onclick="mohsin();">alert</button>
+    <script>
+        function calc() {
+            let studenttotal_marks= document.querySelector("#tm").value;
+            let studentobtain_marks= document.querySelector("#om").value;
+
+        }
+    </script>
+</body>
+</html>
